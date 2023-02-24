@@ -1,1 +1,2 @@
 Learnt React.JS and tried my hands on this (TO DO LIST). I was able to get a better understanding on how components work, how they can be used and reused, how to modify states that use arrays and objects and prevent them from being immutable, as well as being able to make use of slighly more tricky concepts I learnt in Javascript. I still got a lot to adjust and add. Any help or advice would be appreciated please contact me at rooneyfan800@gmail.com
+For this I made use of node.JS and my-react-app environment.
