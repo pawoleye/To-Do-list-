@@ -24,23 +24,29 @@ function App() {
   }
 
   function isComplete(s){
-    console.log(s);
-    for (let i = 0; i < inputs.length; i++) {
-      if(inputs[i].id === s){
-        setInputs({...inputs[i],
-          completed: true
-     });
-      }
-    }
-  }  
-  
+      setInputs(inputs.map(i =>{
+        if(i.id === s){
+          return{ 
+            ...i,
+            completed: !i.completed 
+          }
+        }
+        return i;    
+  }));
+}  
 
+  function erase(s){
+    setInputs(inputs.filter(i =>
+        i.id != s
+    ));
+  }
+  
   return (
     <div className="App">
       <header className="App-header">
        TO DO LIST
        <Todotext addInput={addInput}/>
-       <TodoList inputs={inputs} isComplete={isComplete} />
+       <TodoList inputs={inputs} isComplete={isComplete} erase={erase} />
       </header>
     </div>
   );

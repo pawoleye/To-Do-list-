@@ -11,7 +11,6 @@ function Todotext({ addInput }){
         setInput({...input,
              task: e.target.value
         });
-        console.log("IT worked");
     }
 
     function handleSubmit(e){
