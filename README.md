@@ -1,3 +1,1 @@
-Learnt React.JS and tried my hands on this (TO DO LIST). I was able to get a better understanding on how components work, how they can be used and reused, how to modify states that use arrays and objects and prevent them from being immutable, as well as being able to make use of slighly more tricky concepts I learnt in Javascript such as callbacks, higher order functions, arraymapping and js objects and classes.
-For this I made use of node.JS and my-react-app environment.
-*add a delete functionality, cross out completed tasks, improve the CSS and layout and save the data to a JSON file so that it's reusable when refreshed.
+Used ReactJS to create a simple web app to do list using create react app.
